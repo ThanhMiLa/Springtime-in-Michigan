@@ -1,0 +1,108 @@
+/* CSS Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles - font family and font size */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #ffffcc;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Skip link styling */
+.skip-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+/* Header styles - background color */
+header {
+    background-color: #ccffcc;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation styles - background color */
+nav {
+    background-color: #e6ffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+/* List item styles - display and width */
+li {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Main content area styles - background color and font size */
+main {
+    background-color: #ffffcc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 80%;
+    font-size: 18px;
+    min-height: 300px;
+}
+
+/* H1 styles - text alignment, font family, and color */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #006600;
+    margin-bottom: 30px;
+}
+
+/* Paragraph styles - line height */
+p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Footer styles - background color */
+footer {
+    background-color: #ccffcc;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Dog image styling */
+.dog-image {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    width: 150px;
+    height: 300px;
+}
+
+/* Links styling */
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
